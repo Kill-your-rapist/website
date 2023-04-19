@@ -1,0 +1,7 @@
+main {
+    @apply relative flex w-full flex-col items-center justify-between overflow-hidden px-8 pb-4;
+
+    height: calc(
+        100vh - env(safe-area-inset-bottom, 0) - env(safe-area-inset-top, 0)
+    );
+}
