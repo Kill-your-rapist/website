@@ -9,8 +9,15 @@ export default function Home() {
             <div className="flex h-[80vh] items-center justify-center">
                 <KillYourRapist />
             </div>
-            <div className="flex w-full items-center justify-center">
+            <div className="flex w-full items-center justify-center gap-4">
                 <Image src={BarnInfluence} alt="Barn Influence" />
+
+                <span className="text-gray-800">
+                    We do not support the actual act of killing, Kill your local
+                    rapist is not more than a metaphor to remind the people that
+                    no means no. We do not take credit for any type of behaviour
+                    of our customers.
+                </span>
             </div>
         </main>
     );
