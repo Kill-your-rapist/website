@@ -9,7 +9,7 @@ export default function Home() {
             <div className="flex h-[80vh] items-center justify-center">
                 <KillYourRapist />
             </div>
-            <div className="flex w-full items-center justify-center gap-4">
+            <div className="flex w-full flex-col items-center justify-center gap-4 md:max-w-[60vw]">
                 <Image src={BarnInfluence} alt="Barn Influence" />
 
                 <span className="text-gray-800">
